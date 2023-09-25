@@ -1,0 +1,85 @@
+*{
+    margin: 0px;
+}
+
+p{
+    justify-items: center;
+    text-align: center;
+}
+.center1{
+    display: flex;
+    justify-content: space-around;
+}
+.center2{
+    display: flex;
+    justify-content: space-around;
+}
+
+.box{
+    width: 515px;
+    height: 225px;
+    margin: 5px;
+    background-image: url(../image/pexels-jessika-arraes-12126168.jpg);
+}
+
+.header-box{
+    margin: auto;
+    width: 100%;
+    height: 150px;
+    background-color: gray;
+}
+
+.s-box{
+    display: block;
+    justify-content: center;
+    margin: auto;
+    width: 1170px;
+    height: auto;
+    background-color: darksalmon;
+}
+.s-box2{
+    display: block;
+    padding: 15px 0px;
+    margin: auto;
+    width: 1170px;
+    height: auto;
+    background-color: darksalmon;
+}
+.single-box{
+    background-color: goldenrod;
+    display: flex;
+    width: 100%;
+    height: 225px;
+}
+
+.photo-box{
+    margin: 15px;
+    height: 350px;
+    width: 360px;
+    background-image: url(../image/pexels-luis-quintero-2263822.jpg);
+}
+.article-box{
+    margin: auto;
+    width: 100%;
+    height: 550px;
+    background-color: lightgreen;
+}
+
+.article-box2
+{
+    width: 100%;
+    height: auto;
+    background-color: rgb(206, 115, 66);
+    display: flex;
+    justify-content: center;
+}
+
+
+
+.footer-box{
+    margin: auto; 
+    width: auto;
+    height: 400px;
+    background-color: darkgrey;
+}
+
