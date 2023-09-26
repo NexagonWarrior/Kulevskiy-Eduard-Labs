@@ -2,10 +2,37 @@
     margin: 0px;
 }
 
-p{
-    justify-items: center;
+.header-content{
     text-align: center;
+    font-family: Arial;
+    padding: 50px;
 }
+
+.section-content{
+    text-align: center;
+    font-family: Arial;
+    padding: 5px;
+}
+
+.p-content{
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+    padding: 5px;
+}
+
+.article-content{
+    text-align: center;
+    font-family: Arial;
+    padding: 250px;
+}
+
+.footer-content{
+    margin: auto;
+    text-align: center;
+    font-family: Arial;
+}
+
 .center1{
     display: flex;
     justify-content: space-around;
@@ -74,9 +101,16 @@ p{
     justify-content: center;
 }
 
+.b-content{
+    margin: auto;
+    display: flex;
+    justify-content: center;
+    font-family: Arial;
+}
 
-
-.footer-box{
+footer{
+    display: flex;
+    justify-content: center;
     margin: auto; 
     width: auto;
     height: 400px;
