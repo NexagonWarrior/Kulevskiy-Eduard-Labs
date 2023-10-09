@@ -40,7 +40,7 @@ header{
     background-color: rgb(128, 128, 128);
     height: auto;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     padding: 5px;
     font-size: 20px;
 }
@@ -86,6 +86,7 @@ section
     background-color: rgb(255, 170, 170);
     padding: 10px 0px;
 }
+
 
 .wrap{
     display: flex;
