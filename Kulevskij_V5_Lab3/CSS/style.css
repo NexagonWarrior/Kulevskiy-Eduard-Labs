@@ -1,0 +1,154 @@
+*{
+    margin: 0;
+}
+
+p{
+    font-family: Tahoma, sans-serif;
+}
+
+h1
+{
+    font-family: Tahoma, sans-serif;
+    color: rgb(142, 152, 160);
+    font-size: 25px;
+    margin-left: 75px;
+    margin-top: 75px;
+}
+
+.p1{
+    font-family: Tahoma, sans-serif;
+    color: rgb(142, 152, 160);
+    margin-left: 75px;
+    margin-top: 20px;
+    font-size: 15px;
+}
+
+.p2{
+    color: rgb(142, 152, 160);
+    margin-left: 75px;
+    margin-top: 50px;
+    font-size: 15px;
+}
+
+.link1{
+    color: rgb(128, 186, 220);
+    text-decoration-color: white;
+}
+
+body{
+    background: rgb(2,0,36);
+    background: linear-gradient(148deg, rgba(2,0,36,1) 0%, rgba(179,43,232,1) 0%, rgba(9,84,254,1) 100%, rgba(0,212,255,1) 100%);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.rectangle-position
+{
+    margin: 20px 20px 0px 550px;
+}
+
+.rectangle
+{
+    width: 20px;
+    height: 3px;
+    background-color: rgb(244, 166, 114);
+    margin-bottom: 2px;
+}
+
+section{
+    width: 1170px;
+    height: 800px;
+    background-color: white;
+    margin: 75px;
+}
+
+.left-box
+{
+    background-image: url(../IMG/pexels-jorge-jesus-614117.jpg);
+    width: 585px;
+    height: 800px;
+}
+
+.direction{
+    display: flex;
+    flex-direction: row;
+}
+
+.m1{
+    margin-left: 75px;
+    margin-top: 20px;
+    margin-right: 20px;
+}
+.m2{
+    margin-top: 20px;
+}
+.m3
+{
+    margin-left: 75px;
+    margin-top: 10px;
+}
+
+.m4{
+    margin-left: 75px;
+    margin-top: 20px;
+    color: rgb(142, 152, 160);
+}
+
+.mp{
+    margin-bottom: 10px;
+    color: rgb(142, 152, 160);
+}
+
+.mp1
+{
+    color: rgb(142, 152, 160);
+    margin-left: 5px;
+    font-size: 15px;
+}
+
+.input-size
+{
+    height: 25px;
+    width: 210px;
+    background-color: white;
+    padding-left: 10px;
+    border-radius: 5px;
+    color: black;
+}
+
+.button1
+{
+    margin-left: 75px;
+    margin-top: 50px;
+    height: 50px;
+    width: 120px;
+    background-color: rgb(10, 157, 226);
+    border-color: rgb(10, 157, 226);
+    border-radius: 5px;
+    color: white;
+    font-family: Tahoma, sans-serif;
+    font-size: 15px;
+}
+
+.select-position{
+    margin-left: 485px;
+    margin-top: 50px;
+    color: rgb(142, 152, 160);
+    border-color: white;
+    background-color: white;
+}
+
+.checkbox1:hover
+{
+    cursor: pointer;
+}
+
+.select1:hover{
+    cursor: pointer;
+}
+
+.input1:focus{
+    background-color: rgb(10, 157, 226);
+    opacity: 37%;
+}
