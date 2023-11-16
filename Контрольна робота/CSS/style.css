@@ -1,0 +1,148 @@
+*{
+    margin: 0;
+}
+
+body{
+    font-family: Tahoma, sans-serif;
+    background-image: url(../IMG/BackGround.png);
+    background-size: cover;
+}
+
+.header{
+    display: flex;
+    flex-direction: row;
+}
+
+.logo{
+    margin-left: 50px;
+    margin-top: 30px;
+}
+
+.transforming-button{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    font-size: 28px;
+}
+
+.transforming-button-register{
+    text-decoration: none;
+    color: #fff;
+    font-size: 28px;
+    margin-left: 400px;
+}
+
+.transforming-button-store{
+    text-decoration: none;
+    color: #fff;
+    margin-right: 40px;
+    margin-left: 110px;
+    font-size: 28px;
+}
+
+.menu-select{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 25px;
+}
+
+.hanburger-logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 60px;
+    margin-top: 25px;
+}
+
+.hanburger-logo1:hover{
+    cursor: pointer;
+}
+
+h1{
+    color: #fff;
+    font-size: 78px;
+    text-align: right;
+    position: relative;
+    right: 1030px;
+}
+
+h2{
+    font-size: 42px;
+    margin-left: 230px;
+    color: #fff;
+    
+}
+
+.main-text{
+    margin-top: 100px;
+    margin-left: 115px;
+}
+
+.addition-text{
+    margin-top: 70px;
+}
+
+.addition-text-font
+{
+    color: #803f80;
+    font-size: 27px;
+    margin-left: 150px;
+}
+
+.end-handling{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.network{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.network1:hover{
+    cursor: pointer;
+}
+
+.margin1{
+    margin-left: 150px;
+    margin-right: 30px;
+}
+
+.margin2{
+    margin-right: 30px;
+}
+
+.arrow2{
+    margin-right: 120px;
+}
+
+.arrow1{
+    margin-right: 30px;
+}
+
+.arrow1, .arrow2{
+    cursor: pointer;
+    transition: filter 0.4s;
+    transition: border-radius 0.5s background-color 0.5s;
+}
+
+.arrow1:hover, .arrow2:hover{
+    border-radius: 100%;
+    background-color: white;
+    z-index: 0;
+
+}
+.arrow1 img:hover, .arrow2 img:hover{
+    filter: invert(1);
+}
+
+.arrows{
+    display: flex;
+    flex-direction: row;
+    height: 55px;
+}
+
+
