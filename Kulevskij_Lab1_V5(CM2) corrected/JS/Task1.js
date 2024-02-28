@@ -1,6 +1,17 @@
+function isNumber(variable){
+    return typeof variable === 'number' && !isNaN(variable);
+}
 
-let x = Number.parseFloat(prompt("Введіть значення x:"));
-let y = Number.parseFloat(prompt("Введіть значення y:"));
+function inputNumber(promptMsg) {
+    let input;
+    do {
+        input = parseFloat(prompt(promptMsg));
+    } while (!isNumber(input));
+    return input;
+}
+
+let x = inputNumber("Введіть значення x:");
+let y = inputNumber("Введіть значення y:");
 
 if(x == 0 && y == 0)
 {
