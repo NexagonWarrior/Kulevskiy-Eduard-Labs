@@ -1,23 +1,25 @@
 console.log("Task4")
 
-function lcm(a, b) {
-    
-    function gcd(x, y) {
-        while (y !== 0) {
-            var temp = y;
-            y = x % y;
-            x = temp;
-        }
-        return x;
+function gcd(a, b)
+{
+    if(b === 0)
+    {
+        return a;
     }
-    return Math.abs(a * b) / gcd(a, b);
+
+    return gcd(b, a % b);
 }
 
-var numbers = [];
-for (var i = 20; i <= 40; i++) {
-    numbers.push(i);
+function lcm()
+{
+    let nsc = 20;
+    for(let i = 21; i <= 40; i++)
+    {
+        nsc = nsc * i / gcd(nsc, i);
+    }
+
+    return nsc;
 }
 
-var lcm = numbers.reduce(lcm);
-console.log("Least Common Multiple for numbers from 20 to 40:", lcm);
+console.log(lcm());
 console.log("End of Task4")
